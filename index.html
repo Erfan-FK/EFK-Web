@@ -1,0 +1,182 @@
+<!doctype html>
+<html>
+<head>
+ <title>EFK</title>
+ <link rel="stylesheet" href="style.css">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<script src="https://kit.fontawesome.com/450b3b291a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+ 
+<!----------- Page 1 ----------->
+<div id="header"
+  <div class="container">
+    <nav>
+     <h3 class="logo"><span>E</span>FK.</h3>
+     <ul id="sidemenu">
+      <li><a href="#header">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <i class="fas fa-times" onclick = "closemenu()"></i>    
+     </ul>
+     <i class="fas fa-bars" onclick = "openmenu()"></i>
+    </nav>
+    <div class="header-text">
+    <h1 class="firstline">Hi, <span>Erfan</span> Here.</h1>
+    <div class="secondline">
+      <div class="fixed">I'm </div>
+      <ul class="typewriter">
+       <li><span>Student.</span></li>
+       <li><span>Developer.</span></li>
+       <li><span>Freelancer.</span></li>
+       <li><span>Designer.</span></li>
+      </ul>
+     </div>
+     <a href="" download class="btn btn2">My CV</a>
+     </div>
+     <div class="imagebox">
+     <img src="images\graph.png">
+     </div>      
+  </div>
+ </div>
+ 
+
+ 
+ <div id="about">
+  <div class="container">
+   <div class="row">
+     <div class="about-col1">
+      <img src="images\graph (1).png">
+     </div>
+     <div class="about-col2">
+      <h1 class="sub-title">About Me</h1>
+      <p class="aboutme1">This is Erfan.<br>
+        A young passionate programmer and developer seeking for chances and platforms to gain expriences and improve his skills.<br>
+      Currently a CS Freshamn at Bilkent University.</p>
+      <div class="tab-titels">
+       <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+<p class="tab-links" onclick="opentab('skills')">Skills</p>
+       <p class="tab-links" onclick="opentab('languages')">Languages</p>     
+      </div>
+      <div class="education-tab tab-contents active-tab" id="education">
+       <ul>
+        <li><span>2022-2026</span><br>BSc of CENG from Bilkent University</li>
+        <br>
+        <li><span>2018-2022</span><br>Ferdowsi Highschool Of Tabriz</li>
+       </ul>
+      </div>
+      <div class="skills-bar tab-contents" id="skills">
+        <h2>HTML <i class="fa-brands fa-html5"></i></h2>
+        <div class="progress-bar">
+          <div class="html"><span>80%</span></div>
+        </div>
+        <h2>CSS <i class="fa-brands fa-css3-alt"></i></h2>
+        <div class="progress-bar">
+          <div class="css"><span>90%</span></div>
+        </div>
+        <h2>Java<i class="fa-brands fa-java"></i></h2>
+        <div class="progress-bar">
+          <div class="java"><span>75%</span></div>
+        </div>
+        <h2>JavaScript <i class="fa-brands fa-square-js"></i></h2>
+        <div class="progress-bar">
+          <div class="javascript"><span>60%</span></div>
+        </div>
+        <h2>Python <i class="fa-brands fa-python"></i></h2>
+        <div class="progress-bar">
+          <div class="python"><span>60%</span></div>
+        </div>
+        <h2>React <i class="fa-brands fa-react"></i></h2>
+        <div class="progress-bar">
+          <div class="react"><span>50%</span></div>
+        </div>
+       </div> 
+        
+     <div class="languages-bar tab-contents" id="languages">
+        <h2>English 🇬🇧</h2>
+        <div class="progress-bar">
+          <div class="english"><span>90%</span></div>
+        </div>
+        <h2>Turkish 🇹🇷</h2>
+        <div class="progress-bar">
+          <div class="turkish"><span>99%</span></div>
+        </div>
+        <h2>Persian 🇮🇷</h2>
+        <div class="progress-bar">
+          <div class="persian"><span>99%</span></div>
+        </div>
+        <h2>Arabic 🇸🇦</h2>
+        <div class="progress-bar">
+          <div class="arabic"><span>30%</span></div>
+          </div>
+          <h2>German 🇩🇪</h2>
+        <div class="progress-bar">
+          <div class="german"><span>20%</span></div>
+        </div>         
+      </div>
+     </div>
+   </div>
+  </div>
+</div>
+
+
+
+<div id="contact">
+  <div class="container">
+     <div class="row">
+        <div class="contact-left">
+           <h1 class="sub-title">Contact Me</h1>
+           <p><i class="fa-solid fa-paper-plane"></i>farhangkiaerfan@gmail.com</p>
+           <div class="social-icons">
+             <a href="https://instagram.com/erfanfkia?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i></a>
+             <a href="https://t.me/erfanfkia"><i class="fa-brands fa-telegram"></i></a>
+             <a href="https://www.linkedin.com/in/erfan-farhang-kia-2316b7248"><i class="fa-brands fa-linkedin"></i></a>
+             <a href="https://github.com/Erfan-FK"><i class="fa-brands fa-github"></i></a>
+             
+           </div>
+        </div>
+        
+        <div class="contact-right">
+           <form>
+            <div class="inputfield">
+             <input type="text" name="name"  required>
+             <span>Name</span>
+            </div>
+            
+            <div class="inputfield">
+             
+             <input type="email" name="email" required>
+             <span>Email</span>
+            </div>
+            
+            <div class="inputfield">
+             
+             <textarea name="message" rows="6" required></textarea>
+             <span>Message</span>
+            </div>
+            
+             
+             <button type="submit" class="btn btn2">Submit</button>
+           </form>
+        </div>
+     </div>
+  </div>
+</div>
+
+
+
+<div class="copyright">
+ <p>Copyright © 2022 EFK.</p>
+ <p>Made with <i class="fa-solid fa-heart"></i></p>
+</div>
+
+
+
+ <script src="script.js">
+  
+ </script>
+</body>
+</html>
+
