@@ -115,17 +115,18 @@
      100% { left: 0;}
     }
     .imagebox{
-    width: 30%;
+    width: 20%;
     height: 80%;
     position: absolute;
     bottom: 0;
-    right: 310px;
+    right: 25%;
     }
     .imagebox img{
-    height: 80%;
+    height: 90%;
     position: absolute;
-    left: 50%;
+    left: 10%;
     bottom: 0;
+    
     }
      /* -------- About Me ------- */
      #about{
