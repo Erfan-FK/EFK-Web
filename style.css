@@ -115,14 +115,14 @@
      100% { left: 0;}
     }
     .imagebox{
-    width: 40%;
+    width: 30%;
     height: 80%;
     position: absolute;
     bottom: 0;
     right: 310px;
     }
     .imagebox img{
-    height: 100%;
+    height: 80%;
     position: absolute;
     left: 50%;
     bottom: 0;
